@@ -1,0 +1,24 @@
+{
+  "name": "git-udemy",
+  "version": "1.0.0",
+  "description": "this is the demo repo for practicing git and GitHub.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mahendraparmar10/test-actions.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Mahendraparmar10/test-actions/issues"
+  },
+  "homepage": "https://github.com/Mahendraparmar10/test-actions#readme",
+  "devDependencies": {
+    "jest": "^30.5.2"
+  }
+}
