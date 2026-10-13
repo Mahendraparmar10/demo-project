@@ -5,16 +5,17 @@ on:
   pull_request:
     types: 
       - opened
+    branches:
+      - main
+      - dev
+      - feature/*  
   workflow_dispatch:
   push: 
     branches:
       - main
-      -dev
+      - dev
       - feature/*
-    path-ignore:
-      - .github/workflows/deployment.yml
-      - .github/workflows/output.yml
-      - .github/workflows/test.yml  
+    
 jobs:
   deploy:
     runs-on: ubuntu-latest
